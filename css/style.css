@@ -251,6 +251,14 @@ ul {
   padding: 8px;
 
   background-color: white;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.modal-form {
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .modal-close {
@@ -263,11 +271,82 @@ ul {
   background-color: white;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
+  fill: currentColor;
+}
+
+.modal-close:hover,
+.modal-close:focus {
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  fill: #2196f3;
 }
 
 .modal-icon {
   width: 18px;
   height: 18px;
+}
+
+.modal-title {
+  width: 448px;
+  height: 23px;
+  margin-top: 0;
+  margin-bottom: 12px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.modal-input-title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+
+  color: #757575;
+}
+
+.modal-input-container {
+  position: relative;
+}
+
+.modal-input {
+  width: 448px;
+  height: 40px;
+
+  padding-left: 42px;
+
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.modal-input:focus {
+  border: 1px solid #2196f3;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.modal-input-icon {
+  position: absolute;
+  top: 11px;
+  left: 12px;
+}
+
+.modal-textarea-input {
+  width: 448px;
+  height: 120px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 /*main contant*/
