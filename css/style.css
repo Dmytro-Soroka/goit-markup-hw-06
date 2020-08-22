@@ -283,6 +283,7 @@ ul {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   fill: #2196f3;
+  outline: none;
 
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -344,6 +345,7 @@ ul {
   border: 1px solid #2196f3;
   box-sizing: border-box;
   border-radius: 4px;
+  outline: none;
 
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -362,7 +364,7 @@ ul {
 
 .modal-input:focus + .modal-input-icon {
   fill: #2196f3;
-  border: none;
+  outline: none;
 
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
