@@ -378,6 +378,8 @@ ul {
   padding-right: 16px;
   margin-bottom: 15px;
 
+  resize: none;
+
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
