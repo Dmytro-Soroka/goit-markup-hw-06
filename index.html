@@ -107,12 +107,16 @@
             </form>
             <form>
               <label class="modal-input-title" for="modal-comment">Комментарий</label>
-              <input class="modal-input modal-textarea-input" type="textarea" rows="5" cols="45" name="modal-comment" id="modal-comment" placeholder="Введите текст">
+              <textarea class="modal-input modal-textarea-input" name="modal-comment"cols="30" rows="10" placeholder="Введите текст"></textarea>
             </form>
-            <span>Соглашаюсь с рассылкой и принимаю Условия договора</span>
-            <button class="button hero-button" type="submit">
-              <span class="hero-object">Отправить</span>
-            </button>
+            <div class="modal-bottom">
+              <div class="modal-consent">
+                <span>Соглашаюсь с рассылкой и принимаю <span class="modal-consent-half">Условия договора</span></span>
+              </div>
+              <button class="button modal-button" type="submit">
+                <span class="hero-object">Отправить</span>
+              </button>
+            </div>
           </div>
         </div>        
       </div>
