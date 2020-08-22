@@ -364,7 +364,7 @@ ul {
 
 .modal-input:focus + .modal-input-icon {
   fill: #2196f3;
-  outline: none;
+  outline: noneцу;
 
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -400,18 +400,6 @@ ul {
   margin-bottom: 15px;
 }
 
-/*.checkbox {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-}
-
-.checkbox:checked {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-}*/
-
 .checkbox-container {
   display: block;
   position: relative;
@@ -444,6 +432,7 @@ ul {
 
 .checkbox-container:hover input ~ .checkmark {
   background-color: #ccc;
+  outline: none;
 }
 
 .checkbox-container input:checked ~ .checkmark {
